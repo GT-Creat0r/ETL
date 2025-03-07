@@ -1,0 +1,1925 @@
+2025-02-01 22:53:24,339 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 22:53:24,347 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 22:53:24,348 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,348 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,380 - INFO - Query executed successfully.
+2025-02-01 22:53:24,380 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 22:53:24,381 - INFO - Database connection closed.
+2025-02-01 22:53:24,400 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 22:53:24,404 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 22:53:24,405 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,406 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,428 - INFO - Query executed successfully.
+2025-02-01 22:53:24,428 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 22:53:24,429 - INFO - Database connection closed.
+2025-02-01 22:53:24,449 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 22:53:24,452 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 22:53:24,453 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,453 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,479 - INFO - Query executed successfully.
+2025-02-01 22:53:24,480 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 22:53:24,480 - INFO - Database connection closed.
+2025-02-01 22:53:24,499 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 22:53:24,501 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 22:53:24,502 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,502 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,536 - INFO - Query executed successfully.
+2025-02-01 22:53:24,536 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 22:53:24,536 - INFO - Database connection closed.
+2025-02-01 22:53:24,557 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 22:53:24,561 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 22:53:24,562 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,562 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,589 - INFO - Query executed successfully.
+2025-02-01 22:53:24,590 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 22:53:24,590 - INFO - Database connection closed.
+2025-02-01 22:53:24,609 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 22:53:24,612 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 22:53:24,613 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,613 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,647 - INFO - Query executed successfully.
+2025-02-01 22:53:24,647 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 22:53:24,647 - INFO - Database connection closed.
+2025-02-01 22:53:24,668 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 22:53:24,671 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 22:53:24,672 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,672 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 22:53:24,699 - INFO - Query executed successfully.
+2025-02-01 22:53:24,699 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 22:53:24,699 - INFO - Database connection closed.
+2025-02-01 23:25:50,941 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:25:50,946 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:25:50,946 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:50,946 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:50,963 - INFO - Query executed successfully.
+2025-02-01 23:25:50,963 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:25:50,964 - INFO - Database connection closed.
+2025-02-01 23:25:50,986 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:25:50,989 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:25:50,991 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:50,991 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,007 - INFO - Query executed successfully.
+2025-02-01 23:25:51,007 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:25:51,009 - INFO - Database connection closed.
+2025-02-01 23:25:51,030 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:25:51,033 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:25:51,033 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,033 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,067 - INFO - Query executed successfully.
+2025-02-01 23:25:51,067 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:25:51,067 - INFO - Database connection closed.
+2025-02-01 23:25:51,092 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:25:51,094 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:25:51,096 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,096 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,114 - INFO - Query executed successfully.
+2025-02-01 23:25:51,114 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:25:51,115 - INFO - Database connection closed.
+2025-02-01 23:25:51,141 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:25:51,144 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:25:51,146 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,146 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,182 - INFO - Query executed successfully.
+2025-02-01 23:25:51,183 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:25:51,183 - INFO - Database connection closed.
+2025-02-01 23:25:51,210 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:25:51,214 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:25:51,215 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,215 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,233 - INFO - Query executed successfully.
+2025-02-01 23:25:51,233 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:25:51,233 - INFO - Database connection closed.
+2025-02-01 23:25:51,254 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:25:51,258 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:25:51,259 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,259 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:25:51,296 - INFO - Query executed successfully.
+2025-02-01 23:25:51,296 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:25:51,297 - INFO - Database connection closed.
+2025-02-01 23:28:40,941 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:28:40,945 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:28:40,947 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:40,947 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:40,954 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'country.PRIMARY'
+2025-02-01 23:28:40,954 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:28:40,955 - INFO - Database connection closed.
+2025-02-01 23:28:40,974 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:28:40,977 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:28:40,978 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:40,978 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:40,982 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'region.PRIMARY'
+2025-02-01 23:28:40,982 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:28:40,984 - INFO - Database connection closed.
+2025-02-01 23:28:41,004 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:28:41,007 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:28:41,008 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,008 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,012 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'category.PRIMARY'
+2025-02-01 23:28:41,012 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:28:41,013 - INFO - Database connection closed.
+2025-02-01 23:28:41,030 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:28:41,034 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:28:41,035 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,035 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,040 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'subcategory.PRIMARY'
+2025-02-01 23:28:41,040 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:28:41,040 - INFO - Database connection closed.
+2025-02-01 23:28:41,061 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:28:41,063 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:28:41,064 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,064 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,073 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'product.PRIMARY'
+2025-02-01 23:28:41,073 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:28:41,074 - INFO - Database connection closed.
+2025-02-01 23:28:41,156 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:28:41,159 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:28:41,160 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,160 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,165 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'customer.PRIMARY'
+2025-02-01 23:28:41,165 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:28:41,166 - INFO - Database connection closed.
+2025-02-01 23:28:41,185 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:28:41,187 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:28:41,187 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,187 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:28:41,192 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'store.PRIMARY'
+2025-02-01 23:28:41,192 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:28:41,193 - INFO - Database connection closed.
+2025-02-01 23:29:02,299 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:29:02,302 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:29:02,303 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,303 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,307 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'country.PRIMARY'
+2025-02-01 23:29:02,307 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:29:02,308 - INFO - Database connection closed.
+2025-02-01 23:29:02,328 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:29:02,330 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:29:02,331 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,331 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,334 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'region.PRIMARY'
+2025-02-01 23:29:02,336 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:29:02,336 - INFO - Database connection closed.
+2025-02-01 23:29:02,357 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:29:02,360 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:29:02,362 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,362 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,367 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'category.PRIMARY'
+2025-02-01 23:29:02,367 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:29:02,367 - INFO - Database connection closed.
+2025-02-01 23:29:02,388 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:29:02,391 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:29:02,392 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,392 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,396 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'subcategory.PRIMARY'
+2025-02-01 23:29:02,396 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:29:02,397 - INFO - Database connection closed.
+2025-02-01 23:29:02,416 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:29:02,419 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:29:02,420 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,420 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,424 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'product.PRIMARY'
+2025-02-01 23:29:02,424 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:29:02,425 - INFO - Database connection closed.
+2025-02-01 23:29:02,444 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:29:02,446 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:29:02,447 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,448 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,452 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'customer.PRIMARY'
+2025-02-01 23:29:02,452 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:29:02,452 - INFO - Database connection closed.
+2025-02-01 23:29:02,474 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:29:02,476 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:29:02,477 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,478 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:02,481 - ERROR - Error executing query: 1062 (23000): Duplicate entry '1' for key 'store.PRIMARY'
+2025-02-01 23:29:02,481 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:29:02,482 - INFO - Database connection closed.
+2025-02-01 23:29:42,140 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:29:42,144 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:29:42,144 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,144 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,164 - INFO - Query executed successfully.
+2025-02-01 23:29:42,164 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:29:42,166 - INFO - Database connection closed.
+2025-02-01 23:29:42,190 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:29:42,192 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:29:42,193 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,195 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,206 - INFO - Query executed successfully.
+2025-02-01 23:29:42,206 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:29:42,206 - INFO - Database connection closed.
+2025-02-01 23:29:42,226 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:29:42,227 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:29:42,230 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,230 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,241 - INFO - Query executed successfully.
+2025-02-01 23:29:42,241 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:29:42,241 - INFO - Database connection closed.
+2025-02-01 23:29:42,264 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:29:42,266 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:29:42,267 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,268 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,282 - INFO - Query executed successfully.
+2025-02-01 23:29:42,282 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:29:42,282 - INFO - Database connection closed.
+2025-02-01 23:29:42,307 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:29:42,312 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:29:42,314 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,314 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,329 - INFO - Query executed successfully.
+2025-02-01 23:29:42,329 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:29:42,330 - INFO - Database connection closed.
+2025-02-01 23:29:42,356 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:29:42,360 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:29:42,360 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,362 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,380 - INFO - Query executed successfully.
+2025-02-01 23:29:42,381 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:29:42,381 - INFO - Database connection closed.
+2025-02-01 23:29:42,406 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:29:42,410 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:29:42,411 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,411 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:29:42,422 - INFO - Query executed successfully.
+2025-02-01 23:29:42,422 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:29:42,422 - INFO - Database connection closed.
+2025-02-01 23:33:21,500 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:33:21,503 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:33:21,505 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,506 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,516 - INFO - Query executed successfully.
+2025-02-01 23:33:21,517 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:33:21,517 - INFO - Database connection closed.
+2025-02-01 23:33:21,540 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:33:21,543 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:33:21,544 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,545 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,556 - INFO - Query executed successfully.
+2025-02-01 23:33:21,556 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:33:21,556 - INFO - Database connection closed.
+2025-02-01 23:33:21,576 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:33:21,578 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:33:21,579 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,579 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,589 - INFO - Query executed successfully.
+2025-02-01 23:33:21,589 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:33:21,590 - INFO - Database connection closed.
+2025-02-01 23:33:21,611 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:33:21,614 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:33:21,615 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,615 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,627 - INFO - Query executed successfully.
+2025-02-01 23:33:21,627 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:33:21,628 - INFO - Database connection closed.
+2025-02-01 23:33:21,651 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:33:21,654 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:33:21,654 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,655 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,664 - INFO - Query executed successfully.
+2025-02-01 23:33:21,665 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:33:21,665 - INFO - Database connection closed.
+2025-02-01 23:33:21,688 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:33:21,691 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:33:21,692 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,692 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,704 - INFO - Query executed successfully.
+2025-02-01 23:33:21,706 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:33:21,706 - INFO - Database connection closed.
+2025-02-01 23:33:21,727 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:33:21,730 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:33:21,731 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,731 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:33:21,742 - INFO - Query executed successfully.
+2025-02-01 23:33:21,742 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:33:21,743 - INFO - Database connection closed.
+2025-02-01 23:34:53,977 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:34:53,981 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:34:53,982 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:53,982 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:53,992 - INFO - Query executed successfully.
+2025-02-01 23:34:53,992 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:34:53,993 - INFO - Database connection closed.
+2025-02-01 23:34:54,013 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:34:54,015 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:34:54,016 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,016 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,026 - INFO - Query executed successfully.
+2025-02-01 23:34:54,026 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:34:54,026 - INFO - Database connection closed.
+2025-02-01 23:34:54,051 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:34:54,054 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:34:54,056 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,056 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,065 - INFO - Query executed successfully.
+2025-02-01 23:34:54,067 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:34:54,067 - INFO - Database connection closed.
+2025-02-01 23:34:54,087 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:34:54,090 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:34:54,090 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,090 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,100 - INFO - Query executed successfully.
+2025-02-01 23:34:54,101 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:34:54,101 - INFO - Database connection closed.
+2025-02-01 23:34:54,122 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:34:54,125 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:34:54,127 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,127 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,137 - INFO - Query executed successfully.
+2025-02-01 23:34:54,137 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:34:54,138 - INFO - Database connection closed.
+2025-02-01 23:34:54,159 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:34:54,162 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:34:54,163 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,163 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,174 - INFO - Query executed successfully.
+2025-02-01 23:34:54,174 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:34:54,175 - INFO - Database connection closed.
+2025-02-01 23:34:54,199 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:34:54,202 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:34:54,204 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,204 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:34:54,215 - INFO - Query executed successfully.
+2025-02-01 23:34:54,216 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:34:54,216 - INFO - Database connection closed.
+2025-02-01 23:36:22,535 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:36:22,541 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:36:22,542 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,542 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,562 - INFO - Query executed successfully.
+2025-02-01 23:36:22,562 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:36:22,563 - INFO - Database connection closed.
+2025-02-01 23:36:22,587 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:36:22,589 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:36:22,590 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,590 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,602 - INFO - Query executed successfully.
+2025-02-01 23:36:22,603 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:36:22,603 - INFO - Database connection closed.
+2025-02-01 23:36:22,625 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:36:22,630 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:36:22,632 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,632 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,643 - INFO - Query executed successfully.
+2025-02-01 23:36:22,643 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:36:22,643 - INFO - Database connection closed.
+2025-02-01 23:36:22,667 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:36:22,670 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:36:22,671 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,671 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,681 - INFO - Query executed successfully.
+2025-02-01 23:36:22,681 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:36:22,682 - INFO - Database connection closed.
+2025-02-01 23:36:22,702 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:36:22,704 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:36:22,705 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,706 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,717 - INFO - Query executed successfully.
+2025-02-01 23:36:22,718 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:36:22,718 - INFO - Database connection closed.
+2025-02-01 23:36:22,739 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:36:22,741 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:36:22,742 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,743 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,752 - INFO - Query executed successfully.
+2025-02-01 23:36:22,752 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:36:22,753 - INFO - Database connection closed.
+2025-02-01 23:36:22,772 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:36:22,775 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:36:22,775 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,775 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:36:22,785 - INFO - Query executed successfully.
+2025-02-01 23:36:22,786 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:36:22,786 - INFO - Database connection closed.
+2025-02-01 23:38:04,724 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:38:04,728 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:38:04,729 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,729 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,742 - INFO - Query executed successfully.
+2025-02-01 23:38:04,742 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:38:04,742 - INFO - Database connection closed.
+2025-02-01 23:38:04,764 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:38:04,768 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:38:04,769 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,769 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,780 - INFO - Query executed successfully.
+2025-02-01 23:38:04,780 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:38:04,781 - INFO - Database connection closed.
+2025-02-01 23:38:04,802 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:38:04,806 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:38:04,807 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,807 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,816 - INFO - Query executed successfully.
+2025-02-01 23:38:04,816 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:38:04,817 - INFO - Database connection closed.
+2025-02-01 23:38:04,837 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:38:04,840 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:38:04,841 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,841 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,852 - INFO - Query executed successfully.
+2025-02-01 23:38:04,852 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:38:04,853 - INFO - Database connection closed.
+2025-02-01 23:38:04,874 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:38:04,877 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:38:04,878 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,878 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,891 - INFO - Query executed successfully.
+2025-02-01 23:38:04,891 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:38:04,892 - INFO - Database connection closed.
+2025-02-01 23:38:04,915 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:38:04,917 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:38:04,919 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,920 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,949 - INFO - Query executed successfully.
+2025-02-01 23:38:04,949 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:38:04,949 - INFO - Database connection closed.
+2025-02-01 23:38:04,970 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:38:04,973 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:38:04,974 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,974 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:38:04,985 - INFO - Query executed successfully.
+2025-02-01 23:38:04,986 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:38:04,986 - INFO - Database connection closed.
+2025-02-01 23:39:44,725 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:39:44,728 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:39:44,729 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,730 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,742 - INFO - Query executed successfully.
+2025-02-01 23:39:44,742 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:39:44,743 - INFO - Database connection closed.
+2025-02-01 23:39:44,762 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:39:44,767 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:39:44,768 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,768 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,779 - INFO - Query executed successfully.
+2025-02-01 23:39:44,779 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:39:44,780 - INFO - Database connection closed.
+2025-02-01 23:39:44,800 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:39:44,804 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:39:44,806 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,806 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,817 - INFO - Query executed successfully.
+2025-02-01 23:39:44,818 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:39:44,818 - INFO - Database connection closed.
+2025-02-01 23:39:44,841 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:39:44,844 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:39:44,846 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,846 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,856 - INFO - Query executed successfully.
+2025-02-01 23:39:44,858 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:39:44,858 - INFO - Database connection closed.
+2025-02-01 23:39:44,877 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:39:44,879 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:39:44,881 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,881 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,893 - INFO - Query executed successfully.
+2025-02-01 23:39:44,893 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:39:44,894 - INFO - Database connection closed.
+2025-02-01 23:39:44,915 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:39:44,917 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:39:44,919 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,919 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,929 - INFO - Query executed successfully.
+2025-02-01 23:39:44,929 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:39:44,931 - INFO - Database connection closed.
+2025-02-01 23:39:44,956 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:39:44,958 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:39:44,960 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,960 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:39:44,972 - INFO - Query executed successfully.
+2025-02-01 23:39:44,972 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:39:44,972 - INFO - Database connection closed.
+2025-02-01 23:43:35,928 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-01 23:43:35,932 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-01 23:43:35,933 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:35,933 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:35,943 - INFO - Query executed successfully.
+2025-02-01 23:43:35,944 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-01 23:43:35,944 - INFO - Database connection closed.
+2025-02-01 23:43:35,967 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-01 23:43:35,970 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-01 23:43:35,971 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:35,972 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:35,983 - INFO - Query executed successfully.
+2025-02-01 23:43:35,984 - INFO - Data loaded successfully into 'REGION'.
+2025-02-01 23:43:35,984 - INFO - Database connection closed.
+2025-02-01 23:43:36,004 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-01 23:43:36,006 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-01 23:43:36,006 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,006 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,017 - INFO - Query executed successfully.
+2025-02-01 23:43:36,018 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-01 23:43:36,018 - INFO - Database connection closed.
+2025-02-01 23:43:36,041 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-01 23:43:36,044 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-01 23:43:36,045 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,045 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,055 - INFO - Query executed successfully.
+2025-02-01 23:43:36,056 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-01 23:43:36,056 - INFO - Database connection closed.
+2025-02-01 23:43:36,077 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-01 23:43:36,080 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-01 23:43:36,081 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,082 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,092 - INFO - Query executed successfully.
+2025-02-01 23:43:36,092 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-01 23:43:36,093 - INFO - Database connection closed.
+2025-02-01 23:43:36,115 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-01 23:43:36,116 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-01 23:43:36,118 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,119 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,130 - INFO - Query executed successfully.
+2025-02-01 23:43:36,130 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-01 23:43:36,130 - INFO - Database connection closed.
+2025-02-01 23:43:36,156 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-01 23:43:36,164 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-01 23:43:36,165 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,165 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-01 23:43:36,181 - INFO - Query executed successfully.
+2025-02-01 23:43:36,181 - INFO - Data loaded successfully into 'STORE'.
+2025-02-01 23:43:36,182 - INFO - Database connection closed.

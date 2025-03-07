@@ -1,0 +1,2941 @@
+2025-02-02 00:03:18,267 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-02 00:03:18,269 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-02 00:03:18,271 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,272 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,285 - INFO - Query executed successfully.
+2025-02-02 00:03:18,285 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-02 00:03:18,285 - INFO - Database connection closed.
+2025-02-02 00:03:18,309 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-02 00:03:18,312 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-02 00:03:18,313 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,313 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,324 - INFO - Query executed successfully.
+2025-02-02 00:03:18,324 - INFO - Data loaded successfully into 'REGION'.
+2025-02-02 00:03:18,324 - INFO - Database connection closed.
+2025-02-02 00:03:18,346 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-02 00:03:18,348 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-02 00:03:18,349 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,349 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,360 - INFO - Query executed successfully.
+2025-02-02 00:03:18,360 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-02 00:03:18,361 - INFO - Database connection closed.
+2025-02-02 00:03:18,380 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-02 00:03:18,384 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-02 00:03:18,385 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,385 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,396 - INFO - Query executed successfully.
+2025-02-02 00:03:18,396 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-02 00:03:18,396 - INFO - Database connection closed.
+2025-02-02 00:03:18,417 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-02 00:03:18,420 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-02 00:03:18,421 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,421 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,433 - INFO - Query executed successfully.
+2025-02-02 00:03:18,434 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-02 00:03:18,435 - INFO - Database connection closed.
+2025-02-02 00:03:18,458 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-02 00:03:18,461 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-02 00:03:18,461 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,462 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,472 - INFO - Query executed successfully.
+2025-02-02 00:03:18,472 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-02 00:03:18,473 - INFO - Database connection closed.
+2025-02-02 00:03:18,497 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-02 00:03:18,500 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-02 00:03:18,501 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,501 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:03:18,514 - INFO - Query executed successfully.
+2025-02-02 00:03:18,514 - INFO - Data loaded successfully into 'STORE'.
+2025-02-02 00:03:18,515 - INFO - Database connection closed.
+2025-02-02 00:06:48,151 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-02 00:06:48,154 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-02 00:06:48,155 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,155 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,170 - INFO - Query executed successfully.
+2025-02-02 00:06:48,170 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-02 00:06:48,170 - INFO - Database connection closed.
+2025-02-02 00:06:48,189 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-02 00:06:48,192 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-02 00:06:48,192 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,193 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,201 - INFO - Query executed successfully.
+2025-02-02 00:06:48,201 - INFO - Data loaded successfully into 'REGION'.
+2025-02-02 00:06:48,202 - INFO - Database connection closed.
+2025-02-02 00:06:48,221 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-02 00:06:48,223 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-02 00:06:48,224 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,225 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,233 - INFO - Query executed successfully.
+2025-02-02 00:06:48,234 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-02 00:06:48,234 - INFO - Database connection closed.
+2025-02-02 00:06:48,252 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-02 00:06:48,255 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-02 00:06:48,255 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,256 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,264 - INFO - Query executed successfully.
+2025-02-02 00:06:48,264 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-02 00:06:48,264 - INFO - Database connection closed.
+2025-02-02 00:06:48,282 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-02 00:06:48,284 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-02 00:06:48,285 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,285 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,305 - INFO - Query executed successfully.
+2025-02-02 00:06:48,305 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-02 00:06:48,306 - INFO - Database connection closed.
+2025-02-02 00:06:48,322 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-02 00:06:48,324 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-02 00:06:48,325 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,325 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,335 - INFO - Query executed successfully.
+2025-02-02 00:06:48,335 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-02 00:06:48,335 - INFO - Database connection closed.
+2025-02-02 00:06:48,352 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-02 00:06:48,354 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-02 00:06:48,355 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,355 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:06:48,365 - INFO - Query executed successfully.
+2025-02-02 00:06:48,365 - INFO - Data loaded successfully into 'STORE'.
+2025-02-02 00:06:48,366 - INFO - Database connection closed.
+2025-02-02 00:07:56,228 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:07:56,229 - INFO - Query executed successfully.
+2025-02-02 00:07:56,229 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:07:56,276 - INFO - Query executed successfully.
+2025-02-02 00:07:56,276 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:07:56,281 - INFO - Query executed successfully.
+2025-02-02 00:07:56,282 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:07:56,345 - INFO - Query executed successfully.
+2025-02-02 00:07:56,345 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:07:56,351 - INFO - Query executed successfully.
+2025-02-02 00:07:56,351 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:07:56,392 - INFO - Query executed successfully.
+2025-02-02 00:07:56,394 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:07:56,400 - INFO - Query executed successfully.
+2025-02-02 00:07:56,400 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:07:56,459 - INFO - Query executed successfully.
+2025-02-02 00:07:56,459 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:07:56,464 - INFO - Query executed successfully.
+2025-02-02 00:07:56,464 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:07:56,520 - INFO - Query executed successfully.
+2025-02-02 00:07:56,520 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:07:56,526 - INFO - Query executed successfully.
+2025-02-02 00:07:56,527 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:07:56,558 - INFO - Query executed successfully.
+2025-02-02 00:07:56,559 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:07:56,564 - INFO - Query executed successfully.
+2025-02-02 00:07:56,564 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:07:56,631 - INFO - Query executed successfully.
+2025-02-02 00:07:56,632 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:07:56,637 - INFO - Query executed successfully.
+2025-02-02 00:07:56,637 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SALES;
+        
+2025-02-02 00:07:56,704 - INFO - Query executed successfully.
+2025-02-02 00:07:56,705 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SALES
+            SELECT * FROM OLAP_BIBEK_STG.SALES;
+        
+2025-02-02 00:07:59,415 - INFO - Query executed successfully.
+2025-02-02 00:07:59,415 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:07:59,416 - INFO - Query executed successfully.
+2025-02-02 00:07:59,417 - INFO - Database connection closed.
+2025-02-02 00:08:13,470 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:08:13,471 - INFO - Query executed successfully.
+2025-02-02 00:08:13,471 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:08:13,527 - INFO - Query executed successfully.
+2025-02-02 00:08:13,527 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:08:13,533 - INFO - Query executed successfully.
+2025-02-02 00:08:13,533 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:08:13,595 - INFO - Query executed successfully.
+2025-02-02 00:08:13,595 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:08:13,602 - INFO - Query executed successfully.
+2025-02-02 00:08:13,602 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:08:13,638 - INFO - Query executed successfully.
+2025-02-02 00:08:13,639 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:08:13,644 - INFO - Query executed successfully.
+2025-02-02 00:08:13,645 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:08:13,707 - INFO - Query executed successfully.
+2025-02-02 00:08:13,707 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:08:13,713 - INFO - Query executed successfully.
+2025-02-02 00:08:13,713 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:08:13,776 - INFO - Query executed successfully.
+2025-02-02 00:08:13,776 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:08:13,782 - INFO - Query executed successfully.
+2025-02-02 00:08:13,782 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:08:13,818 - INFO - Query executed successfully.
+2025-02-02 00:08:13,818 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:08:13,824 - INFO - Query executed successfully.
+2025-02-02 00:08:13,825 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:08:13,881 - INFO - Query executed successfully.
+2025-02-02 00:08:13,881 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:08:13,886 - INFO - Query executed successfully.
+2025-02-02 00:08:13,886 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SALES;
+        
+2025-02-02 00:08:13,964 - INFO - Query executed successfully.
+2025-02-02 00:08:13,964 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SALES
+            SELECT * FROM OLAP_BIBEK_STG.SALES;
+        
+2025-02-02 00:08:16,606 - INFO - Query executed successfully.
+2025-02-02 00:08:16,606 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:08:16,607 - INFO - Query executed successfully.
+2025-02-02 00:08:16,607 - INFO - Database connection closed.
+2025-02-02 00:10:10,322 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:10:10,324 - INFO - Query executed successfully.
+2025-02-02 00:10:10,325 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:10:10,384 - INFO - Query executed successfully.
+2025-02-02 00:10:10,385 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:10:10,390 - INFO - Query executed successfully.
+2025-02-02 00:10:10,390 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:10:10,458 - INFO - Query executed successfully.
+2025-02-02 00:10:10,458 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:10:10,465 - INFO - Query executed successfully.
+2025-02-02 00:10:10,465 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:10:10,505 - INFO - Query executed successfully.
+2025-02-02 00:10:10,505 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:10:10,513 - INFO - Query executed successfully.
+2025-02-02 00:10:10,513 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:10:10,585 - INFO - Query executed successfully.
+2025-02-02 00:10:10,585 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:10:10,595 - INFO - Query executed successfully.
+2025-02-02 00:10:10,595 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:10:10,672 - INFO - Query executed successfully.
+2025-02-02 00:10:10,672 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:10:10,681 - INFO - Query executed successfully.
+2025-02-02 00:10:10,682 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:10:10,732 - INFO - Query executed successfully.
+2025-02-02 00:10:10,732 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:10:10,741 - INFO - Query executed successfully.
+2025-02-02 00:10:10,741 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:10:10,830 - INFO - Query executed successfully.
+2025-02-02 00:10:10,830 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:10:10,838 - INFO - Query executed successfully.
+2025-02-02 00:10:10,839 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 00:10:10,840 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 00:10:10,840 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 00:10:10,840 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 00:10:10,842 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:10:10,843 - INFO - Query executed successfully.
+2025-02-02 00:10:10,844 - INFO - Database connection closed.
+2025-02-02 00:10:17,801 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:10:17,860 - INFO - Query executed successfully.
+2025-02-02 00:10:17,860 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:10:17,870 - INFO - Query executed successfully.
+2025-02-02 00:10:29,874 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:10:29,875 - INFO - Query executed successfully.
+2025-02-02 00:10:29,876 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:10:29,932 - INFO - Query executed successfully.
+2025-02-02 00:10:29,932 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:10:29,939 - INFO - Query executed successfully.
+2025-02-02 00:10:29,939 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:10:30,015 - INFO - Query executed successfully.
+2025-02-02 00:10:30,015 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:10:30,024 - INFO - Query executed successfully.
+2025-02-02 00:10:30,025 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:10:30,080 - INFO - Query executed successfully.
+2025-02-02 00:10:30,080 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:10:30,088 - INFO - Query executed successfully.
+2025-02-02 00:10:30,088 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:10:30,153 - INFO - Query executed successfully.
+2025-02-02 00:10:30,153 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:10:30,160 - INFO - Query executed successfully.
+2025-02-02 00:10:30,161 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:10:30,231 - INFO - Query executed successfully.
+2025-02-02 00:10:30,231 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:10:30,238 - INFO - Query executed successfully.
+2025-02-02 00:10:30,238 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:10:30,276 - INFO - Query executed successfully.
+2025-02-02 00:10:30,276 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:10:30,282 - INFO - Query executed successfully.
+2025-02-02 00:10:30,284 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:10:30,354 - INFO - Query executed successfully.
+2025-02-02 00:10:30,354 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:10:30,360 - INFO - Query executed successfully.
+2025-02-02 00:10:30,362 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 00:10:30,363 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 00:10:30,363 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 00:10:30,363 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 00:10:30,364 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:10:30,364 - INFO - Query executed successfully.
+2025-02-02 00:10:30,365 - INFO - Database connection closed.
+2025-02-02 00:10:34,753 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:10:34,798 - INFO - Query executed successfully.
+2025-02-02 00:10:34,798 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:10:34,805 - INFO - Query executed successfully.
+2025-02-02 00:11:21,736 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-02 00:11:21,739 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-02 00:11:21,740 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,740 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,751 - INFO - Query executed successfully.
+2025-02-02 00:11:21,752 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-02 00:11:21,752 - INFO - Database connection closed.
+2025-02-02 00:11:21,774 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-02 00:11:21,777 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-02 00:11:21,778 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,778 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,789 - INFO - Query executed successfully.
+2025-02-02 00:11:21,789 - INFO - Data loaded successfully into 'REGION'.
+2025-02-02 00:11:21,789 - INFO - Database connection closed.
+2025-02-02 00:11:21,810 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-02 00:11:21,813 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-02 00:11:21,815 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,815 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,824 - INFO - Query executed successfully.
+2025-02-02 00:11:21,825 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-02 00:11:21,825 - INFO - Database connection closed.
+2025-02-02 00:11:21,848 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-02 00:11:21,851 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-02 00:11:21,852 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,852 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,865 - INFO - Query executed successfully.
+2025-02-02 00:11:21,866 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-02 00:11:21,866 - INFO - Database connection closed.
+2025-02-02 00:11:21,887 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-02 00:11:21,890 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-02 00:11:21,891 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,891 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,905 - INFO - Query executed successfully.
+2025-02-02 00:11:21,905 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-02 00:11:21,905 - INFO - Database connection closed.
+2025-02-02 00:11:21,929 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-02 00:11:21,932 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-02 00:11:21,933 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,933 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,945 - INFO - Query executed successfully.
+2025-02-02 00:11:21,945 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-02 00:11:21,946 - INFO - Database connection closed.
+2025-02-02 00:11:21,967 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-02 00:11:21,971 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-02 00:11:21,972 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,972 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:11:21,983 - INFO - Query executed successfully.
+2025-02-02 00:11:21,984 - INFO - Data loaded successfully into 'STORE'.
+2025-02-02 00:11:21,984 - INFO - Database connection closed.
+2025-02-02 00:11:54,361 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:11:54,363 - INFO - Query executed successfully.
+2025-02-02 00:11:54,363 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:11:54,420 - INFO - Query executed successfully.
+2025-02-02 00:11:54,420 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:11:54,428 - INFO - Query executed successfully.
+2025-02-02 00:11:54,429 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:11:54,493 - INFO - Query executed successfully.
+2025-02-02 00:11:54,493 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:11:54,501 - INFO - Query executed successfully.
+2025-02-02 00:11:54,501 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:11:54,543 - INFO - Query executed successfully.
+2025-02-02 00:11:54,543 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:11:54,549 - INFO - Query executed successfully.
+2025-02-02 00:11:54,550 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:11:54,600 - INFO - Query executed successfully.
+2025-02-02 00:11:54,601 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:11:54,606 - INFO - Query executed successfully.
+2025-02-02 00:11:54,606 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:11:54,671 - INFO - Query executed successfully.
+2025-02-02 00:11:54,671 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:11:54,677 - INFO - Query executed successfully.
+2025-02-02 00:11:54,678 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:11:54,714 - INFO - Query executed successfully.
+2025-02-02 00:11:54,714 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:11:54,720 - INFO - Query executed successfully.
+2025-02-02 00:11:54,720 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:11:54,791 - INFO - Query executed successfully.
+2025-02-02 00:11:54,791 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:11:54,798 - INFO - Query executed successfully.
+2025-02-02 00:11:54,799 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 00:11:54,799 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 00:11:54,799 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 00:11:54,800 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 00:11:54,800 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:11:54,800 - INFO - Query executed successfully.
+2025-02-02 00:11:54,803 - INFO - Database connection closed.
+2025-02-02 00:12:12,142 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:12:12,191 - INFO - Query executed successfully.
+2025-02-02 00:12:12,191 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:12:12,202 - INFO - Query executed successfully.
+2025-02-02 00:13:30,648 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:13:30,704 - INFO - Query executed successfully.
+2025-02-02 00:13:30,705 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:13:30,712 - INFO - Query executed successfully.
+2025-02-02 00:13:30,713 - INFO - Database connection closed.
+2025-02-02 00:13:30,735 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:13:30,787 - INFO - Query executed successfully.
+2025-02-02 00:13:30,787 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:13:30,798 - INFO - Query executed successfully.
+2025-02-02 00:15:49,685 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:15:49,740 - INFO - Query executed successfully.
+2025-02-02 00:15:49,741 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:15:49,747 - INFO - Query executed successfully.
+2025-02-02 00:15:49,749 - INFO - Database connection closed.
+2025-02-02 00:15:49,773 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:15:49,817 - INFO - Query executed successfully.
+2025-02-02 00:15:49,817 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:15:49,826 - INFO - Query executed successfully.
+2025-02-02 00:15:49,827 - INFO - Database connection closed.
+2025-02-02 00:15:49,848 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 00:15:49,890 - INFO - Query executed successfully.
+2025-02-02 00:15:49,891 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 00:15:49,897 - INFO - Query executed successfully.
+2025-02-02 00:16:46,181 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:16:46,236 - INFO - Query executed successfully.
+2025-02-02 00:16:46,236 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:16:46,244 - INFO - Query executed successfully.
+2025-02-02 00:16:46,245 - INFO - Database connection closed.
+2025-02-02 00:16:46,265 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:16:46,312 - INFO - Query executed successfully.
+2025-02-02 00:16:46,312 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:16:46,320 - INFO - Query executed successfully.
+2025-02-02 00:16:46,321 - INFO - Database connection closed.
+2025-02-02 00:16:46,344 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 00:16:46,395 - INFO - Query executed successfully.
+2025-02-02 00:16:46,395 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 00:16:46,405 - INFO - Query executed successfully.
+2025-02-02 00:16:46,405 - INFO - Database connection closed.
+2025-02-02 00:16:46,429 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 00:16:46,478 - INFO - Query executed successfully.
+2025-02-02 00:16:46,479 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 00:16:46,488 - INFO - Query executed successfully.
+2025-02-02 00:16:46,488 - INFO - Database connection closed.
+2025-02-02 00:16:46,512 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 00:16:46,562 - INFO - Query executed successfully.
+2025-02-02 00:16:46,562 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 00:16:46,569 - INFO - Query executed successfully.
+2025-02-02 00:17:48,543 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:17:48,596 - INFO - Query executed successfully.
+2025-02-02 00:17:48,596 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:17:48,603 - INFO - Query executed successfully.
+2025-02-02 00:17:48,605 - INFO - Database connection closed.
+2025-02-02 00:17:48,624 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:17:48,677 - INFO - Query executed successfully.
+2025-02-02 00:17:48,677 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:17:48,685 - INFO - Query executed successfully.
+2025-02-02 00:17:48,686 - INFO - Database connection closed.
+2025-02-02 00:17:48,705 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 00:17:48,751 - INFO - Query executed successfully.
+2025-02-02 00:17:48,751 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 00:17:48,759 - INFO - Query executed successfully.
+2025-02-02 00:17:48,760 - INFO - Database connection closed.
+2025-02-02 00:17:48,781 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 00:17:48,833 - INFO - Query executed successfully.
+2025-02-02 00:17:48,834 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 00:17:48,841 - INFO - Query executed successfully.
+2025-02-02 00:17:48,842 - INFO - Database connection closed.
+2025-02-02 00:17:48,863 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 00:17:48,900 - INFO - Query executed successfully.
+2025-02-02 00:17:48,900 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 00:17:48,906 - INFO - Query executed successfully.
+2025-02-02 00:17:48,906 - INFO - Database connection closed.
+2025-02-02 00:17:48,927 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 00:17:48,972 - INFO - Query executed successfully.
+2025-02-02 00:17:48,972 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 00:17:48,979 - INFO - Query executed successfully.
+2025-02-02 00:17:48,979 - INFO - Database connection closed.
+2025-02-02 00:17:49,001 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 00:17:49,051 - INFO - Query executed successfully.
+2025-02-02 00:17:49,052 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 00:17:49,064 - INFO - Query executed successfully.
+2025-02-02 00:17:49,065 - INFO - Database connection closed.
+2025-02-02 00:17:49,084 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 00:17:49,128 - INFO - Query executed successfully.
+2025-02-02 00:17:49,129 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 00:17:49,261 - INFO - Query executed successfully.
+2025-02-02 00:17:49,261 - INFO - Database connection closed.
+2025-02-02 00:18:16,603 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-02 00:18:16,605 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-02 00:18:16,607 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,607 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,627 - INFO - Query executed successfully.
+2025-02-02 00:18:16,627 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-02 00:18:16,627 - INFO - Database connection closed.
+2025-02-02 00:18:16,649 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-02 00:18:16,651 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-02 00:18:16,652 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,652 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,663 - INFO - Query executed successfully.
+2025-02-02 00:18:16,663 - INFO - Data loaded successfully into 'REGION'.
+2025-02-02 00:18:16,663 - INFO - Database connection closed.
+2025-02-02 00:18:16,684 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-02 00:18:16,688 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-02 00:18:16,688 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,688 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,698 - INFO - Query executed successfully.
+2025-02-02 00:18:16,699 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-02 00:18:16,699 - INFO - Database connection closed.
+2025-02-02 00:18:16,718 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-02 00:18:16,721 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-02 00:18:16,721 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,721 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,734 - INFO - Query executed successfully.
+2025-02-02 00:18:16,734 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-02 00:18:16,735 - INFO - Database connection closed.
+2025-02-02 00:18:16,754 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-02 00:18:16,757 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-02 00:18:16,758 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,758 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,770 - INFO - Query executed successfully.
+2025-02-02 00:18:16,770 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-02 00:18:16,771 - INFO - Database connection closed.
+2025-02-02 00:18:16,791 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-02 00:18:16,795 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-02 00:18:16,796 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,797 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,819 - INFO - Query executed successfully.
+2025-02-02 00:18:16,819 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-02 00:18:16,820 - INFO - Database connection closed.
+2025-02-02 00:18:16,843 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-02 00:18:16,845 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-02 00:18:16,847 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,847 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 00:18:16,857 - INFO - Query executed successfully.
+2025-02-02 00:18:16,857 - INFO - Data loaded successfully into 'STORE'.
+2025-02-02 00:18:16,858 - INFO - Database connection closed.
+2025-02-02 00:18:39,688 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:18:39,689 - INFO - Query executed successfully.
+2025-02-02 00:18:39,690 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:18:39,742 - INFO - Query executed successfully.
+2025-02-02 00:18:39,742 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:18:39,750 - INFO - Query executed successfully.
+2025-02-02 00:18:39,751 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:18:39,820 - INFO - Query executed successfully.
+2025-02-02 00:18:39,820 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:18:39,827 - INFO - Query executed successfully.
+2025-02-02 00:18:39,827 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:18:39,872 - INFO - Query executed successfully.
+2025-02-02 00:18:39,873 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:18:39,878 - INFO - Query executed successfully.
+2025-02-02 00:18:39,878 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:18:39,949 - INFO - Query executed successfully.
+2025-02-02 00:18:39,949 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:18:39,955 - INFO - Query executed successfully.
+2025-02-02 00:18:39,957 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:18:40,045 - INFO - Query executed successfully.
+2025-02-02 00:18:40,045 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:18:40,054 - INFO - Query executed successfully.
+2025-02-02 00:18:40,054 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:18:40,106 - INFO - Query executed successfully.
+2025-02-02 00:18:40,106 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:18:40,114 - INFO - Query executed successfully.
+2025-02-02 00:18:40,115 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:18:40,183 - INFO - Query executed successfully.
+2025-02-02 00:18:40,183 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:18:40,190 - INFO - Query executed successfully.
+2025-02-02 00:18:40,190 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 00:18:40,191 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 00:18:40,191 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 00:18:40,192 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 00:18:40,192 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:18:40,195 - INFO - Query executed successfully.
+2025-02-02 00:18:40,196 - INFO - Database connection closed.
+2025-02-02 00:18:44,838 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:18:44,921 - INFO - Query executed successfully.
+2025-02-02 00:18:44,921 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:18:44,928 - INFO - Query executed successfully.
+2025-02-02 00:18:44,929 - INFO - Database connection closed.
+2025-02-02 00:18:44,951 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:18:45,002 - INFO - Query executed successfully.
+2025-02-02 00:18:45,002 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:18:45,010 - INFO - Query executed successfully.
+2025-02-02 00:18:45,011 - INFO - Database connection closed.
+2025-02-02 00:18:45,030 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 00:18:45,071 - INFO - Query executed successfully.
+2025-02-02 00:18:45,071 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 00:18:45,077 - INFO - Query executed successfully.
+2025-02-02 00:18:45,078 - INFO - Database connection closed.
+2025-02-02 00:18:45,100 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 00:18:45,147 - INFO - Query executed successfully.
+2025-02-02 00:18:45,147 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 00:18:45,153 - INFO - Query executed successfully.
+2025-02-02 00:18:45,153 - INFO - Database connection closed.
+2025-02-02 00:18:45,175 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 00:18:45,215 - INFO - Query executed successfully.
+2025-02-02 00:18:45,215 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 00:18:45,222 - INFO - Query executed successfully.
+2025-02-02 00:18:45,222 - INFO - Database connection closed.
+2025-02-02 00:18:45,244 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 00:18:45,285 - INFO - Query executed successfully.
+2025-02-02 00:18:45,287 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 00:18:45,295 - INFO - Query executed successfully.
+2025-02-02 00:18:45,296 - INFO - Database connection closed.
+2025-02-02 00:18:45,315 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 00:18:45,355 - INFO - Query executed successfully.
+2025-02-02 00:18:45,355 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 00:18:45,363 - INFO - Query executed successfully.
+2025-02-02 00:18:45,364 - INFO - Database connection closed.
+2025-02-02 00:18:45,383 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 00:18:45,426 - INFO - Query executed successfully.
+2025-02-02 00:18:45,427 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 00:18:45,557 - INFO - Query executed successfully.
+2025-02-02 00:18:45,558 - INFO - Database connection closed.
+2025-02-02 00:19:35,417 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 00:19:35,417 - INFO - Query executed successfully.
+2025-02-02 00:19:35,418 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 00:19:35,463 - INFO - Query executed successfully.
+2025-02-02 00:19:35,463 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 00:19:35,470 - INFO - Query executed successfully.
+2025-02-02 00:19:35,470 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 00:19:35,545 - INFO - Query executed successfully.
+2025-02-02 00:19:35,546 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 00:19:35,551 - INFO - Query executed successfully.
+2025-02-02 00:19:35,552 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 00:19:35,589 - INFO - Query executed successfully.
+2025-02-02 00:19:35,591 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 00:19:35,599 - INFO - Query executed successfully.
+2025-02-02 00:19:35,599 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 00:19:35,662 - INFO - Query executed successfully.
+2025-02-02 00:19:35,662 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 00:19:35,670 - INFO - Query executed successfully.
+2025-02-02 00:19:35,670 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 00:19:35,737 - INFO - Query executed successfully.
+2025-02-02 00:19:35,738 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 00:19:35,743 - INFO - Query executed successfully.
+2025-02-02 00:19:35,744 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 00:19:35,784 - INFO - Query executed successfully.
+2025-02-02 00:19:35,784 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 00:19:35,791 - INFO - Query executed successfully.
+2025-02-02 00:19:35,791 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 00:19:35,842 - INFO - Query executed successfully.
+2025-02-02 00:19:35,842 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 00:19:35,849 - INFO - Query executed successfully.
+2025-02-02 00:19:35,849 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 00:19:35,850 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 00:19:35,850 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 00:19:35,850 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 00:19:35,851 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 00:19:35,851 - INFO - Query executed successfully.
+2025-02-02 00:19:35,852 - INFO - Database connection closed.
+2025-02-02 00:19:41,513 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 00:19:41,569 - INFO - Query executed successfully.
+2025-02-02 00:19:41,569 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 00:19:41,575 - INFO - Query executed successfully.
+2025-02-02 00:19:41,577 - INFO - Database connection closed.
+2025-02-02 00:19:41,600 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 00:19:41,641 - INFO - Query executed successfully.
+2025-02-02 00:19:41,641 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 00:19:41,648 - INFO - Query executed successfully.
+2025-02-02 00:19:41,649 - INFO - Database connection closed.
+2025-02-02 00:19:41,669 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 00:19:41,716 - INFO - Query executed successfully.
+2025-02-02 00:19:41,717 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 00:19:41,724 - INFO - Query executed successfully.
+2025-02-02 00:19:41,725 - INFO - Database connection closed.
+2025-02-02 00:19:41,744 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 00:19:41,783 - INFO - Query executed successfully.
+2025-02-02 00:19:41,784 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 00:19:41,790 - INFO - Query executed successfully.
+2025-02-02 00:19:41,792 - INFO - Database connection closed.
+2025-02-02 00:19:41,812 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 00:19:41,856 - INFO - Query executed successfully.
+2025-02-02 00:19:41,856 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 00:19:41,865 - INFO - Query executed successfully.
+2025-02-02 00:19:41,865 - INFO - Database connection closed.
+2025-02-02 00:19:41,884 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 00:19:41,932 - INFO - Query executed successfully.
+2025-02-02 00:19:41,933 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 00:19:41,941 - INFO - Query executed successfully.
+2025-02-02 00:19:41,942 - INFO - Database connection closed.
+2025-02-02 00:19:41,963 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 00:19:42,012 - INFO - Query executed successfully.
+2025-02-02 00:19:42,013 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 00:19:42,020 - INFO - Query executed successfully.
+2025-02-02 00:19:42,021 - INFO - Database connection closed.
+2025-02-02 00:19:42,044 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 00:19:42,089 - INFO - Query executed successfully.
+2025-02-02 00:19:42,089 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 00:19:42,218 - INFO - Query executed successfully.
+2025-02-02 00:19:42,218 - INFO - Database connection closed.
+2025-02-02 08:00:38,309 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 08:00:38,311 - INFO - Query executed successfully.
+2025-02-02 08:00:38,311 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 08:00:38,390 - INFO - Query executed successfully.
+2025-02-02 08:00:38,390 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 08:00:38,414 - INFO - Query executed successfully.
+2025-02-02 08:00:38,414 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 08:00:38,463 - INFO - Query executed successfully.
+2025-02-02 08:00:38,463 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 08:00:38,468 - INFO - Query executed successfully.
+2025-02-02 08:00:38,468 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 08:00:38,504 - INFO - Query executed successfully.
+2025-02-02 08:00:38,504 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 08:00:38,516 - INFO - Query executed successfully.
+2025-02-02 08:00:38,516 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 08:00:38,570 - INFO - Query executed successfully.
+2025-02-02 08:00:38,571 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 08:00:38,577 - INFO - Query executed successfully.
+2025-02-02 08:00:38,577 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 08:00:38,641 - INFO - Query executed successfully.
+2025-02-02 08:00:38,641 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 08:00:38,655 - INFO - Query executed successfully.
+2025-02-02 08:00:38,655 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 08:00:38,686 - INFO - Query executed successfully.
+2025-02-02 08:00:38,687 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 08:00:38,694 - INFO - Query executed successfully.
+2025-02-02 08:00:38,694 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 08:00:38,753 - INFO - Query executed successfully.
+2025-02-02 08:00:38,753 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 08:00:38,758 - INFO - Query executed successfully.
+2025-02-02 08:00:38,759 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 08:00:38,759 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 08:00:38,760 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 08:00:38,760 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 08:00:38,760 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 08:00:38,761 - INFO - Query executed successfully.
+2025-02-02 08:00:38,762 - INFO - Database connection closed.
+2025-02-02 08:00:57,324 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 08:00:57,367 - INFO - Query executed successfully.
+2025-02-02 08:00:57,367 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 08:00:57,375 - INFO - Query executed successfully.
+2025-02-02 08:00:57,376 - INFO - Database connection closed.
+2025-02-02 08:00:57,394 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 08:00:57,433 - INFO - Query executed successfully.
+2025-02-02 08:00:57,433 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 08:00:57,441 - INFO - Query executed successfully.
+2025-02-02 08:00:57,441 - INFO - Database connection closed.
+2025-02-02 08:00:57,460 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 08:00:57,495 - INFO - Query executed successfully.
+2025-02-02 08:00:57,496 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 08:00:57,504 - INFO - Query executed successfully.
+2025-02-02 08:00:57,504 - INFO - Database connection closed.
+2025-02-02 08:00:57,524 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 08:00:57,563 - INFO - Query executed successfully.
+2025-02-02 08:00:57,564 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 08:00:57,571 - INFO - Query executed successfully.
+2025-02-02 08:00:57,571 - INFO - Database connection closed.
+2025-02-02 08:00:57,591 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 08:00:57,629 - INFO - Query executed successfully.
+2025-02-02 08:00:57,629 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 08:00:57,636 - INFO - Query executed successfully.
+2025-02-02 08:00:57,636 - INFO - Database connection closed.
+2025-02-02 08:00:57,654 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 08:00:57,692 - INFO - Query executed successfully.
+2025-02-02 08:00:57,692 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 08:00:57,700 - INFO - Query executed successfully.
+2025-02-02 08:00:57,701 - INFO - Database connection closed.
+2025-02-02 08:00:57,720 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 08:00:57,766 - INFO - Query executed successfully.
+2025-02-02 08:00:57,766 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 08:00:57,775 - INFO - Query executed successfully.
+2025-02-02 08:00:57,775 - INFO - Database connection closed.
+2025-02-02 08:00:57,796 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 08:00:57,843 - INFO - Query executed successfully.
+2025-02-02 08:00:57,844 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 08:00:58,012 - INFO - Query executed successfully.
+2025-02-02 08:00:58,013 - INFO - Database connection closed.
+2025-02-02 08:11:39,216 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 08:11:39,218 - INFO - Query executed successfully.
+2025-02-02 08:11:39,218 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 08:11:39,270 - INFO - Query executed successfully.
+2025-02-02 08:11:39,270 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 08:11:39,276 - INFO - Query executed successfully.
+2025-02-02 08:11:39,276 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 08:11:39,341 - INFO - Query executed successfully.
+2025-02-02 08:11:39,341 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 08:11:39,347 - INFO - Query executed successfully.
+2025-02-02 08:11:39,347 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 08:11:39,385 - INFO - Query executed successfully.
+2025-02-02 08:11:39,385 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 08:11:39,391 - INFO - Query executed successfully.
+2025-02-02 08:11:39,391 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 08:11:39,456 - INFO - Query executed successfully.
+2025-02-02 08:11:39,457 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 08:11:39,461 - INFO - Query executed successfully.
+2025-02-02 08:11:39,462 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 08:11:39,519 - INFO - Query executed successfully.
+2025-02-02 08:11:39,520 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 08:11:39,525 - INFO - Query executed successfully.
+2025-02-02 08:11:39,525 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 08:11:39,562 - INFO - Query executed successfully.
+2025-02-02 08:11:39,562 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 08:11:39,568 - INFO - Query executed successfully.
+2025-02-02 08:11:39,568 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 08:11:39,657 - INFO - Query executed successfully.
+2025-02-02 08:11:39,657 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 08:11:39,663 - INFO - Query executed successfully.
+2025-02-02 08:11:39,663 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 08:11:39,664 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 08:11:39,664 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 08:11:39,665 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 08:11:39,665 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 08:11:39,666 - INFO - Query executed successfully.
+2025-02-02 08:11:39,666 - INFO - Database connection closed.
+2025-02-02 08:18:04,609 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 08:18:04,610 - INFO - Query executed successfully.
+2025-02-02 08:18:04,610 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 08:18:04,668 - INFO - Query executed successfully.
+2025-02-02 08:18:04,669 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 08:18:04,676 - INFO - Query executed successfully.
+2025-02-02 08:18:04,676 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 08:18:04,731 - INFO - Query executed successfully.
+2025-02-02 08:18:04,731 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 08:18:04,737 - INFO - Query executed successfully.
+2025-02-02 08:18:04,737 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 08:18:04,784 - INFO - Query executed successfully.
+2025-02-02 08:18:04,784 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 08:18:04,791 - INFO - Query executed successfully.
+2025-02-02 08:18:04,791 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 08:18:04,860 - INFO - Query executed successfully.
+2025-02-02 08:18:04,860 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 08:18:04,865 - INFO - Query executed successfully.
+2025-02-02 08:18:04,865 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 08:18:04,924 - INFO - Query executed successfully.
+2025-02-02 08:18:04,924 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 08:18:04,930 - INFO - Query executed successfully.
+2025-02-02 08:18:04,930 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 08:18:04,967 - INFO - Query executed successfully.
+2025-02-02 08:18:04,968 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 08:18:04,973 - INFO - Query executed successfully.
+2025-02-02 08:18:04,975 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 08:18:05,042 - INFO - Query executed successfully.
+2025-02-02 08:18:05,043 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 08:18:05,048 - INFO - Query executed successfully.
+2025-02-02 08:18:05,048 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales Data;
+        
+2025-02-02 08:18:05,049 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data' at line 1
+2025-02-02 08:18:05,049 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data;
+        
+2025-02-02 08:18:05,050 - ERROR - Error executing query: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Data
+            SELECT * FROM OLAP_BIBEK_STG.Sales Data' at line 1
+2025-02-02 08:18:05,050 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 08:18:05,051 - INFO - Query executed successfully.
+2025-02-02 08:18:05,052 - INFO - Database connection closed.
+2025-02-02 08:19:07,236 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 08:19:07,237 - INFO - Query executed successfully.
+2025-02-02 08:19:07,237 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 08:19:07,280 - INFO - Query executed successfully.
+2025-02-02 08:19:07,281 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 08:19:07,286 - INFO - Query executed successfully.
+2025-02-02 08:19:07,286 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 08:19:07,359 - INFO - Query executed successfully.
+2025-02-02 08:19:07,359 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 08:19:07,366 - INFO - Query executed successfully.
+2025-02-02 08:19:07,367 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 08:19:07,425 - INFO - Query executed successfully.
+2025-02-02 08:19:07,425 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 08:19:07,431 - INFO - Query executed successfully.
+2025-02-02 08:19:07,431 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 08:19:07,502 - INFO - Query executed successfully.
+2025-02-02 08:19:07,502 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 08:19:07,508 - INFO - Query executed successfully.
+2025-02-02 08:19:07,508 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 08:19:07,568 - INFO - Query executed successfully.
+2025-02-02 08:19:07,568 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 08:19:07,574 - INFO - Query executed successfully.
+2025-02-02 08:19:07,574 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 08:19:07,614 - INFO - Query executed successfully.
+2025-02-02 08:19:07,615 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 08:19:07,621 - INFO - Query executed successfully.
+2025-02-02 08:19:07,621 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 08:19:07,684 - INFO - Query executed successfully.
+2025-02-02 08:19:07,684 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 08:19:07,690 - INFO - Query executed successfully.
+2025-02-02 08:19:07,690 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales;
+        
+2025-02-02 08:19:07,748 - INFO - Query executed successfully.
+2025-02-02 08:19:07,748 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales
+            SELECT * FROM OLAP_BIBEK_STG.Sales;
+        
+2025-02-02 08:19:09,452 - INFO - Query executed successfully.
+2025-02-02 08:19:09,453 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 08:19:09,454 - INFO - Query executed successfully.
+2025-02-02 08:19:09,455 - INFO - Database connection closed.
+2025-02-02 08:19:14,809 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 08:19:14,854 - INFO - Query executed successfully.
+2025-02-02 08:19:14,854 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 08:19:14,860 - INFO - Query executed successfully.
+2025-02-02 08:19:14,861 - INFO - Database connection closed.
+2025-02-02 08:19:14,878 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 08:19:14,917 - INFO - Query executed successfully.
+2025-02-02 08:19:14,917 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 08:19:14,924 - INFO - Query executed successfully.
+2025-02-02 08:19:14,925 - INFO - Database connection closed.
+2025-02-02 08:19:14,941 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 08:19:14,978 - INFO - Query executed successfully.
+2025-02-02 08:19:14,978 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 08:19:14,985 - INFO - Query executed successfully.
+2025-02-02 08:19:14,985 - INFO - Database connection closed.
+2025-02-02 08:19:15,002 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 08:19:15,053 - INFO - Query executed successfully.
+2025-02-02 08:19:15,054 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 08:19:15,060 - INFO - Query executed successfully.
+2025-02-02 08:19:15,061 - INFO - Database connection closed.
+2025-02-02 08:19:15,083 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 08:19:15,122 - INFO - Query executed successfully.
+2025-02-02 08:19:15,122 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 08:19:15,130 - INFO - Query executed successfully.
+2025-02-02 08:19:15,131 - INFO - Database connection closed.
+2025-02-02 08:19:15,149 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 08:19:15,191 - INFO - Query executed successfully.
+2025-02-02 08:19:15,192 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 08:19:15,201 - INFO - Query executed successfully.
+2025-02-02 08:19:15,201 - INFO - Database connection closed.
+2025-02-02 08:19:15,216 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 08:19:15,256 - INFO - Query executed successfully.
+2025-02-02 08:19:15,256 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 08:19:15,263 - INFO - Query executed successfully.
+2025-02-02 08:19:15,264 - INFO - Database connection closed.
+2025-02-02 08:19:15,281 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 08:19:15,313 - INFO - Query executed successfully.
+2025-02-02 08:19:15,313 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 08:19:16,778 - INFO - Query executed successfully.
+2025-02-02 08:19:16,779 - INFO - Database connection closed.
+2025-02-02 08:33:02,958 - INFO - 
+            SELECT * from OLTP_BIBEK.COUNTRY
+            
+2025-02-02 08:33:02,962 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv
+2025-02-02 08:33:02,965 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:02,965 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/COUNTRY.csv'
+            INTO TABLE OLAP_BIBEK_STG.COUNTRY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:02,986 - INFO - Query executed successfully.
+2025-02-02 08:33:02,986 - INFO - Data loaded successfully into 'COUNTRY'.
+2025-02-02 08:33:02,987 - INFO - Database connection closed.
+2025-02-02 08:33:03,005 - INFO - 
+            SELECT * from OLTP_BIBEK.REGION
+            
+2025-02-02 08:33:03,008 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv
+2025-02-02 08:33:03,009 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,009 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/REGION.csv'
+            INTO TABLE OLAP_BIBEK_STG.REGION
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,029 - INFO - Query executed successfully.
+2025-02-02 08:33:03,029 - INFO - Data loaded successfully into 'REGION'.
+2025-02-02 08:33:03,030 - INFO - Database connection closed.
+2025-02-02 08:33:03,046 - INFO - 
+            SELECT * from OLTP_BIBEK.CATEGORY
+            
+2025-02-02 08:33:03,049 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv
+2025-02-02 08:33:03,050 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,050 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.CATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,068 - INFO - Query executed successfully.
+2025-02-02 08:33:03,068 - INFO - Data loaded successfully into 'CATEGORY'.
+2025-02-02 08:33:03,068 - INFO - Database connection closed.
+2025-02-02 08:33:03,083 - INFO - 
+            SELECT * from OLTP_BIBEK.SUBCATEGORY
+            
+2025-02-02 08:33:03,086 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv
+2025-02-02 08:33:03,087 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,087 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SUBCATEGORY.csv'
+            INTO TABLE OLAP_BIBEK_STG.SUBCATEGORY
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,109 - INFO - Query executed successfully.
+2025-02-02 08:33:03,109 - INFO - Data loaded successfully into 'SUBCATEGORY'.
+2025-02-02 08:33:03,109 - INFO - Database connection closed.
+2025-02-02 08:33:03,129 - INFO - 
+            SELECT * from OLTP_BIBEK.PRODUCT
+            
+2025-02-02 08:33:03,131 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv
+2025-02-02 08:33:03,132 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,132 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/PRODUCT.csv'
+            INTO TABLE OLAP_BIBEK_STG.PRODUCT
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,154 - INFO - Query executed successfully.
+2025-02-02 08:33:03,154 - INFO - Data loaded successfully into 'PRODUCT'.
+2025-02-02 08:33:03,155 - INFO - Database connection closed.
+2025-02-02 08:33:03,174 - INFO - 
+            SELECT * from OLTP_BIBEK.CUSTOMER
+            
+2025-02-02 08:33:03,178 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv
+2025-02-02 08:33:03,179 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,179 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CUSTOMER.csv'
+            INTO TABLE OLAP_BIBEK_STG.CUSTOMER
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,199 - INFO - Query executed successfully.
+2025-02-02 08:33:03,199 - INFO - Data loaded successfully into 'CUSTOMER'.
+2025-02-02 08:33:03,200 - INFO - Database connection closed.
+2025-02-02 08:33:03,217 - INFO - 
+            SELECT * from OLTP_BIBEK.STORE
+            
+2025-02-02 08:33:03,220 - INFO - Data successfully written to C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv
+2025-02-02 08:33:03,221 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,221 - INFO - 
+            LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/STORE.csv'
+            INTO TABLE OLAP_BIBEK_STG.STORE
+            FIELDS TERMINATED BY ',' 
+            ENCLOSED BY '"' 
+            LINES TERMINATED BY '
+'
+            IGNORE 1 ROWS                 
+        
+2025-02-02 08:33:03,244 - INFO - Query executed successfully.
+2025-02-02 08:33:03,245 - INFO - Data loaded successfully into 'STORE'.
+2025-02-02 08:33:03,245 - INFO - Database connection closed.
+2025-02-02 08:43:40,695 - INFO - SET FOREIGN_KEY_CHECKS =0;
+2025-02-02 08:43:40,697 - INFO - Query executed successfully.
+2025-02-02 08:43:40,697 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.COUNTRY;
+        
+2025-02-02 08:43:40,749 - INFO - Query executed successfully.
+2025-02-02 08:43:40,750 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.COUNTRY
+            SELECT * FROM OLAP_BIBEK_STG.COUNTRY;
+        
+2025-02-02 08:43:40,755 - INFO - Query executed successfully.
+2025-02-02 08:43:40,755 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.REGION;
+        
+2025-02-02 08:43:40,823 - INFO - Query executed successfully.
+2025-02-02 08:43:40,823 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.REGION
+            SELECT * FROM OLAP_BIBEK_STG.REGION;
+        
+2025-02-02 08:43:40,829 - INFO - Query executed successfully.
+2025-02-02 08:43:40,829 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CATEGORY;
+        
+2025-02-02 08:43:40,864 - INFO - Query executed successfully.
+2025-02-02 08:43:40,864 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.CATEGORY;
+        
+2025-02-02 08:43:40,870 - INFO - Query executed successfully.
+2025-02-02 08:43:40,870 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.SUBCATEGORY;
+        
+2025-02-02 08:43:40,965 - INFO - Query executed successfully.
+2025-02-02 08:43:40,965 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.SUBCATEGORY
+            SELECT * FROM OLAP_BIBEK_STG.SUBCATEGORY;
+        
+2025-02-02 08:43:40,972 - INFO - Query executed successfully.
+2025-02-02 08:43:40,972 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.PRODUCT;
+        
+2025-02-02 08:43:41,033 - INFO - Query executed successfully.
+2025-02-02 08:43:41,033 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.PRODUCT
+            SELECT * FROM OLAP_BIBEK_STG.PRODUCT;
+        
+2025-02-02 08:43:41,039 - INFO - Query executed successfully.
+2025-02-02 08:43:41,039 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.CUSTOMER;
+        
+2025-02-02 08:43:41,079 - INFO - Query executed successfully.
+2025-02-02 08:43:41,079 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.CUSTOMER
+            SELECT * FROM OLAP_BIBEK_STG.CUSTOMER;
+        
+2025-02-02 08:43:41,085 - INFO - Query executed successfully.
+2025-02-02 08:43:41,086 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.STORE;
+        
+2025-02-02 08:43:41,145 - INFO - Query executed successfully.
+2025-02-02 08:43:41,147 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.STORE
+            SELECT * FROM OLAP_BIBEK_STG.STORE;
+        
+2025-02-02 08:43:41,152 - INFO - Query executed successfully.
+2025-02-02 08:43:41,153 - INFO -             
+            TRUNCATE TABLE OLAP_BIBEK_TEMP.Sales;
+        
+2025-02-02 08:43:41,214 - INFO - Query executed successfully.
+2025-02-02 08:43:41,214 - INFO - 
+            INSERT INTO OLAP_BIBEK_TEMP.Sales
+            SELECT * FROM OLAP_BIBEK_STG.Sales;
+        
+2025-02-02 08:43:42,688 - INFO - Query executed successfully.
+2025-02-02 08:43:42,688 - INFO - SET FOREIGN_KEY_CHECKS = 1;
+2025-02-02 08:43:42,689 - INFO - Query executed successfully.
+2025-02-02 08:43:42,690 - INFO - Database connection closed.
+2025-02-02 08:43:48,308 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 08:43:48,355 - INFO - Query executed successfully.
+2025-02-02 08:43:48,355 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 08:43:48,366 - INFO - Query executed successfully.
+2025-02-02 08:43:48,367 - INFO - Database connection closed.
+2025-02-02 08:43:48,386 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 08:43:48,422 - INFO - Query executed successfully.
+2025-02-02 08:43:48,422 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 08:43:48,430 - INFO - Query executed successfully.
+2025-02-02 08:43:48,431 - INFO - Database connection closed.
+2025-02-02 08:43:48,452 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 08:43:48,497 - INFO - Query executed successfully.
+2025-02-02 08:43:48,497 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 08:43:48,507 - INFO - Query executed successfully.
+2025-02-02 08:43:48,509 - INFO - Database connection closed.
+2025-02-02 08:43:48,529 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 08:43:48,580 - INFO - Query executed successfully.
+2025-02-02 08:43:48,581 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 08:43:48,590 - INFO - Query executed successfully.
+2025-02-02 08:43:48,592 - INFO - Database connection closed.
+2025-02-02 08:43:48,612 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 08:43:48,646 - INFO - Query executed successfully.
+2025-02-02 08:43:48,646 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 08:43:48,654 - INFO - Query executed successfully.
+2025-02-02 08:43:48,655 - INFO - Database connection closed.
+2025-02-02 08:43:48,683 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 08:43:48,719 - INFO - Query executed successfully.
+2025-02-02 08:43:48,720 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 08:43:48,727 - INFO - Query executed successfully.
+2025-02-02 08:43:48,728 - INFO - Database connection closed.
+2025-02-02 08:43:48,742 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 08:43:48,781 - INFO - Query executed successfully.
+2025-02-02 08:43:48,782 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 08:43:48,789 - INFO - Query executed successfully.
+2025-02-02 08:43:48,789 - INFO - Database connection closed.
+2025-02-02 08:43:48,810 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 08:43:48,847 - INFO - Query executed successfully.
+2025-02-02 08:43:48,847 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 08:43:50,297 - INFO - Query executed successfully.
+2025-02-02 08:43:50,297 - INFO - Database connection closed.
+2025-02-02 09:13:47,687 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T;
+
+2025-02-02 09:13:47,737 - INFO - Query executed successfully.
+2025-02-02 09:13:47,737 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T (CNTRY_ID,CNTRY_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT ID,COUNTRY_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.COUNTRY;
+
+2025-02-02 09:13:47,744 - INFO - Query executed successfully.
+2025-02-02 09:13:47,745 - INFO - Database connection closed.
+2025-02-02 09:13:47,763 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_RGN_T;
+
+2025-02-02 09:13:47,814 - INFO - Query executed successfully.
+2025-02-02 09:13:47,814 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_RGN_T (RGN_ID,CNTRY_KY, RGN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT R.ID,C.CNTRY_KY, R.REGION_DESC, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.REGION R
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CNTRY_T C
+ON R.COUNTRY_ID = C.CNTRY_ID;
+
+2025-02-02 09:13:47,823 - INFO - Query executed successfully.
+2025-02-02 09:13:47,824 - INFO - Database connection closed.
+2025-02-02 09:13:47,841 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T;
+
+2025-02-02 09:13:47,898 - INFO - Query executed successfully.
+2025-02-02 09:13:47,899 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T (CUSTOMER_ID,CUSTOMER_FST_NM, CUSTOMER_MID_NM, CUSTOMER_LST_NM, CUSTOMER_ADDR, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+    ID,
+  CUSTOMER_FIRST_NAME, 
+  CUSTOMER_MIDDLE_NAME, 
+  CUSTOMER_LAST_NAME, 
+  CUSTOMER_ADDRESS, 
+  CURRENT_TIMESTAMP, 
+  CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.CUSTOMER;
+
+2025-02-02 09:13:47,908 - INFO - Query executed successfully.
+2025-02-02 09:13:47,909 - INFO - Database connection closed.
+2025-02-02 09:13:47,927 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T;
+
+2025-02-02 09:13:47,976 - INFO - Query executed successfully.
+2025-02-02 09:13:47,976 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T (CTGRY_ID, CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            ID, 
+            CATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+FROM OLAP_BIBEK_TEMP.CATEGORY;
+
+2025-02-02 09:13:47,987 - INFO - Query executed successfully.
+2025-02-02 09:13:47,988 - INFO - Database connection closed.
+2025-02-02 09:13:48,012 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T;
+
+2025-02-02 09:13:48,063 - INFO - Query executed successfully.
+2025-02-02 09:13:48,063 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T (SUB_CTGRY_ID, CTGRY_KY, SUB_CTGRY_DESC, Row_INSRT_TMS, Row_UPDT_TMS)
+        SELECT 
+            S.ID,
+            C.CTGRY_KY, 
+            S.SUBCATEGORY_DESC,
+            CURRENT_TIMESTAMP as row_insrt_tms,
+            CURRENT_TIMESTAMP as row_updt_tms
+        FROM OLAP_BIBEK_TEMP.SUBCATEGORY S
+        LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CTGRY_T C
+        ON S.CATEGORY_ID = C.CTGRY_ID
+
+2025-02-02 09:13:48,072 - INFO - Query executed successfully.
+2025-02-02 09:13:48,073 - INFO - Database connection closed.
+2025-02-02 09:13:48,090 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_PDT_T;
+
+2025-02-02 09:13:48,125 - INFO - Query executed successfully.
+2025-02-02 09:13:48,125 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_PDT_T (PDT_ID,SUB_CTGRY_KY,CTGRY_KY,PDT_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+    SELECT 
+        P.ID,
+        S.SUB_CTGRY_KY,        
+        S.CTGRY_KY,
+        P.PRODUCT_DESC,
+        CURRENT_TIMESTAMP, 
+        CURRENT_TIMESTAMP
+FROM OLAP_BIBEK_TEMP.PRODUCT P
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_SUB_CTGRY_T S 
+  ON P.SUBCATEGORY_ID = S.SUB_CTGRY_ID;
+
+2025-02-02 09:13:48,133 - INFO - Query executed successfully.
+2025-02-02 09:13:48,134 - INFO - Database connection closed.
+2025-02-02 09:13:48,150 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.D_RETAIL_LOCN_T ;
+
+2025-02-02 09:13:48,185 - INFO - Query executed successfully.
+2025-02-02 09:13:48,185 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.D_RETAIL_LOCN_T  (LOCN_ID, RGN_KY, CNTRY_KY, LOCN_DESC, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID AS LOCN_ID,                        
+  R.RGN_KY,                    
+  R.CNTRY_KY,                  
+  S.STORE_DESC AS LOCN_DESC,   
+  CURRENT_TIMESTAMP,           
+  CURRENT_TIMESTAMP            
+FROM OLAP_BIBEK_TEMP.STORE S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_RGN_T R ON S.REGION_ID = R.RGN_ID;
+
+2025-02-02 09:13:48,193 - INFO - Query executed successfully.
+2025-02-02 09:13:48,193 - INFO - Database connection closed.
+2025-02-02 09:13:48,209 - INFO - 
+TRUNCATE TABLE OLAP_BIBEK_TGT.F_RETAIL_SLS_T ;
+
+2025-02-02 09:13:48,246 - INFO - Query executed successfully.
+2025-02-02 09:13:48,246 - INFO - 
+INSERT INTO OLAP_BIBEK_TGT.F_RETAIL_SLS_T  (SLS_ID,LOCN_KY,DT_KY, PDT_KY, CUSTOMER_KY, TRANSACTION_TIME, QTY, AMT, DSCNT, ROW_INSRT_TMS, ROW_UPDT_TMS)
+SELECT 
+  S.ID,            
+  L.LOCN_KY,
+  CA.DAY_KEY,
+  P.PDT_KY,                  
+  C.CUSTOMER_KY,             
+  S.TRANSACTION_TIME,        
+  S.QUANTITY AS QTY,         
+  S.AMOUNT AS AMT,           
+  S.DISCOUNT AS DSCNT,       
+  CURRENT_TIMESTAMP,         
+  CURRENT_TIMESTAMP          
+FROM OLAP_BIBEK_TEMP.SALES S
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_PDT_T P ON S.PRODUCT_ID = P.PDT_ID  
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_CUSTOMER_T C ON S.CUSTOMER_ID = C.CUSTOMER_ID
+LEFT JOIN OLAP_BIBEK_TGT.D_RETAIL_LOCN_T L ON S.STORE_ID = L.LOCN_ID
+LEFT JOIN OLAP_BIBEK_TGT.DIM_CALENDAR CA ON DATE(S.TRANSACTION_TIME) = CA.DATE;
+
+2025-02-02 09:13:49,664 - INFO - Query executed successfully.
+2025-02-02 09:13:49,665 - INFO - Database connection closed.

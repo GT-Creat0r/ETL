@@ -9,7 +9,7 @@ Instructions
 3.Run pip install -r requirements.txt
 
 4.Add config.cfg in the config folder with the following structure
-
+``
 {
     "DB_HOST":"localhost",
     "DB_USER":"root",
@@ -21,6 +21,7 @@ Instructions
     "DB_TEMP": "OLAP_BIBEK_TEMP",
     "DB_TGT": "OLAP_BIBEK_TGT"
 }
+``
 Add your own values for each variable.
 
 5.Open the Variables.py file in the library directory and replace the path with the path to your config.cfg file.

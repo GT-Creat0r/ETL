@@ -6,10 +6,10 @@ Instructions
 
 2.Open the project in PyCharm
 
-3.Run pip install -r requirements.txt
+3.Run ```bash pip install -r requirements.txt ```
 
 4.Add config.cfg in the config folder with the following structure
-``
+```bash
 {
     "DB_HOST":"localhost",
     "DB_USER":"root",

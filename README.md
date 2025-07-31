@@ -2,7 +2,7 @@ This is the DW/BI lab that includes ETL (Extract, Transform , Load) Process and 
 
 Instructions
 
-1.Clone this repo with git clone https://github.com/ShresthaAnkit/DWBI.git
+1.Clone this repo with git clone https://github.com/GT-Creat0r/ETL.git
 
 2.Open the project in PyCharm
 

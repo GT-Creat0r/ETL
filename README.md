@@ -2,14 +2,14 @@ This is the DW/BI lab that includes ETL (Extract, Transform , Load) Process and 
 
 Instructions
 
-1.Clone this repo with git clone https://github.com/GT-Creat0r/ETL.git
+1.Clone this repo with ```git clone https://github.com/GT-Creat0r/ETL.git```
 
 2.Open the project in PyCharm
 
-3.Run ```bash pip install -r requirements.txt ```
+3.Run ```pip install -r requirements.txt ```
 
 4.Add config.cfg in the config folder with the following structure
-```bash
+```
 {
     "DB_HOST":"localhost",
     "DB_USER":"root",
@@ -21,10 +21,10 @@ Instructions
     "DB_TEMP": "OLAP_BIBEK_TEMP",
     "DB_TGT": "OLAP_BIBEK_TGT"
 }
-``
+```
 Add your own values for each variable.
 
-5.Open the Variables.py file in the library directory and replace the path with the path to your config.cfg file.
+5.Open the ```Variables.py``` file in the ``library`` directory and replace the path with the path to your config.cfg file.
 
 6.Open the all_sql.sql file in sql_queries directory and replace BIBEK with YOUR_NAME and run the entire file.
 

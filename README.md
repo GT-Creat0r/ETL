@@ -1,6 +1,7 @@
 This is the DW/BI lab that includes ETL (Extract, Transform , Load) Process and uses MySql Workbench for data management.
 
 Instructions
+
 1.Clone this repo with git clone https://github.com/ShresthaAnkit/DWBI.git
 
 2.Open the project in PyCharm
@@ -10,7 +11,15 @@ Instructions
 4.Add config.cfg in the config folder with the following structure
 
 {
-
+    "DB_HOST":"localhost",
+    "DB_USER":"root",
+    "DB_PASSWORD":"password",
+    "DB_STG":"OLAP_BIBEK_STG",
+    "log_path":"D:/DW-BI/ETL/logs",
+    "data_path":"C:/ProgramData/MySQL/MySQL Server 8.0/Uploads",
+    "DB_SRC": "OLTP_BIBEK",
+    "DB_TEMP": "OLAP_BIBEK_TEMP",
+    "DB_TGT": "OLAP_BIBEK_TGT"
 }
 Add your own values for each variable.
 
